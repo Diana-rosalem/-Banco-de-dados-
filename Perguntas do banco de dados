@@ -1,0 +1,13 @@
+<h1> Perguntas do banco de dados </h1>
+<br>
+<br>-Quais filmes foram avaliados  (Relacionamento da matéria com o filme atributo nome)
+<br>- Quais as matérias feitas ( entidade materia)
+<br>- Quem fez a matéria (entidade critico relacionamento com a materia)
+<br>- Quantas matérias foram feitas por determinado crítico ( crítico relacionamento materia) 
+<br>- Quais são os usuários cadastrados (entidade usuario, atributo e-mail)
+<br>- Quem é o crítico renomado de cada matéria (entidade filho : critico-renomado com relacionamento na materia)
+<br>- Quem é funcionário da empresa (entidade funcionario TI, atributo matricula )
+<br>- Quais são as classificações dos melhores filmes de cada ano ( entidade classificação relacionamento com avaliação)
+<br>- Quais são as avaliações dos usuários (relacionamento da avaliação e usuário)
+<br>- Quem e quando forma realizados as manutenções (relacionamento entre o funcionário de Ti e site) 
+<br>- Quais são as avaliações de cada filme (relacionamento entre avaliação
