@@ -13,3 +13,12 @@
 <br> Os usuários cadastrados também podem fazer uma avaliação sobre a o filme e dos integrantes da equipe de acordo com as matérias publicadas.
 <br>
 <br>A cada ano realizam uma classificação dos melhores filmes com base nas avaliações da equipe e dos usuários.
+<br>
+<br>
+<h2> Normalização do banco de dados</h2>
+<br>
+  <br>Primeira forma normal: os atributos só podem ter um único valor, ou seja, não possuem repetições (não são atributos   multivalorados), caso houver é preciso separar e/ou criar outros atributos, para transforma-lo em um atributo de valor único se não resolver então deve criar uma entidade adicional para se relacionar com original.
+<br>
+  <br>Segunda forma normal: deve atender todos os requisitos da primeira forma, e serve para prevenir que o identificador único não depende totalmente, e torná-lo dependente, no caso de haver um UID composto ambos deverão ser dependentes. se não for dependente deve se criar uma outra entidade.
+<br>
+  <br>Terceira forma normal: os atributos só podem depender o UDI da entidade, se caso haver um atributo que depende de outro sem ser o UDI (dependências transitivas), deve se movê-lo para uma nova entidade.
