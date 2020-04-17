@@ -17,7 +17,7 @@
 <br>
 <h2> Normalização do banco de dados</h2>
 <br>
-  <br>Primeira forma normal: Os atributos só podem ter um único valor, ou seja, não possuem repetições (não são atributos multivalorados), caso houver é preciso separar e criar outros atributos, para transforma-lo em um atributo de valor único se não resolver então deve criar uma entidade adicional para se relacionar com original.
+  <br>Primeira forma normal: Os atributos só podem ter um único valor, ou seja, não possuem repetições (não são atributos multivalorados), caso houver é preciso separar e criar outros atributos, para transforma-lo em um atributo de valor único. Se não resolver então deve criar uma entidade adicional para se relacionar com original.
 <br>
   <br>Segunda forma normal: Deve atender todos os requisitos da primeira forma, e serve para prevenir ter outros atributos que não depende totalmente do UID, e torná-los dependente, no caso de haver um UID composto ambos deverão ser dependentes. Se não for dependente deve se criar uma outra entidade.
 <br>
