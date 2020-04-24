@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="trabalho bd2" id="2EE762DD-6AD1-8822-7A1D-1965D111E711" version="3.5">
+<createdBy>diana</createdBy>
+<createdTime>2020-04-22 20:35:45 UTC</createdTime>
+<ownerDesignName>22222</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2EE762DD-6AD1-8822-7A1D-1965D111E711</designId>
+</OSDM_Design>
