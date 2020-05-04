@@ -24,8 +24,8 @@
   <br>Terceira forma normal: Deve atender todos os requisitos da primeira e segunda forma. Os atributos só podem depender o UID da entidade, ou seja, não devem depender um do outro (sem ser o UID), se caso haver um atributo que depende de outro sem ser o UDI (dependências transitivas), deve se movê-lo para uma nova entidade ou removê-lo.
  <br>
  <br>
- <h2>Perguntas do sistema</h2>
-<br>-Quais filmes foram avaliados?  (Relacionamento da matéria com o filme atributo nome)
+ <h2>Perguntas do sistema para o banco de dados </h2>
+<br>- Quais filmes foram avaliados?  (Relacionamento da matéria com o filme atributo nome)
 <br>- Quais as matérias feitas?  (entidade matéria)
 <br>- Quem fez a matéria?  (entidade crítico relacionamento com a matéria)
 <br>- Quantas matérias foram feitas por determinado crítico?  (crítico relacionamento com a matéria) 
