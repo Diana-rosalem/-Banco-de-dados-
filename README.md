@@ -16,13 +16,24 @@
 <br>
 <br>
 <h2> Normalização do banco de dados</h2>
+<br> 
+  <br>Primeira forma normal: Os atributos só podem ter um único valor, ou seja, não possuem repetições (não são atributos multivalorados), caso houver é preciso separar e criar outros atributos, para transforma-lo em um atributo de valor único. Se não resolver então deve criar uma entidade adicional para se relacionar com original.
 <br>
-  <br>**Primeira forma normal:** Os atributos só podem ter um único valor, ou seja, não possuem repetições (não são atributos multivalorados), caso houver é preciso separar e criar outros atributos, para transforma-lo em um atributo de valor único. Se não resolver então deve criar uma entidade adicional para se relacionar com original.
+  <br>Segunda forma normal: Deve atender todos os requisitos da primeira forma, e serve para prevenir ter outros atributos que não depende totalmente do UID, e torná-los dependente, no caso de haver um UID composto ambos deverão ser dependentes. Se não for dependente deve se criar uma outra entidade.
 <br>
-  <br>**Segunda forma normal:** Deve atender todos os requisitos da primeira forma, e serve para prevenir ter outros atributos que não depende totalmente do UID, e torná-los dependente, no caso de haver um UID composto ambos deverão ser dependentes. Se não for dependente deve se criar uma outra entidade.
-<br>
-  <br>**Terceira forma normal:** Deve atender todos os requisitos da primeira e segunda forma. Os atributos só podem depender o UID da entidade, ou seja, não devem depender um do outro (sem ser o UID), se caso haver um atributo que depende de outro sem ser o UDI (dependências transitivas), deve se movê-lo para uma nova entidade ou removê-lo.
+  <br>Terceira forma normal: Deve atender todos os requisitos da primeira e segunda forma. Os atributos só podem depender o UID da entidade, ou seja, não devem depender um do outro (sem ser o UID), se caso haver um atributo que depende de outro sem ser o UDI (dependências transitivas), deve se movê-lo para uma nova entidade ou removê-lo.
  <br>
  <br>
- <h2>Perguntas do sistema<h2>
+ <h2>Perguntas do sistema</h2>
+<br>-Quais filmes foram avaliados?  (Relacionamento da matéria com o filme atributo nome)
+<br>- Quais as matérias feitas?  (entidade matéria)
+<br>- Quem fez a matéria?  (entidade crítico relacionamento com a matéria)
+<br>- Quantas matérias foram feitas por determinado crítico?  (crítico relacionamento com a matéria) 
+<br>- Quais são os usuários cadastrados?  (entidade usuário, atributo e-mail)
+<br>- Quem é o crítico renomado de cada matéria? (entidade filho: crítico-renomado com relacionamento na matéria)
+<br>- Quem é funcionário da empresa?  (atributo matrícula)
+<br>- Quais são as classificações dos melhores filmes de cada ano?  (entidade avaliação e filmes)
+<br>- Quais são as avaliações dos usuários?  (relacionamento da avaliação e usuário)
+<br>- Quais são as avaliações de cada filme?  (relacionamento entre avaliação)
+
   
