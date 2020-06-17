@@ -21,7 +21,7 @@
 <br>
   <br>Segunda forma normal: Deve atender todos os requisitos da primeira forma, e serve para prevenir ter outros atributos que não depende totalmente do UID, e torná-los dependente, no caso de haver um UID composto ambos deverão ser dependentes. Se não for dependente deve se criar uma outra entidade.
 <br>
-  <br>Terceira forma normal: Deve atender todos os requisitos da primeira e segunda forma. Os atributos só podem depender o UID da entidade, ou seja, não devem depender um do outro (sem ser o UID), se caso haver um atributo que depende de outro sem ser o UDI (dependências transitivas), deve se movê-lo para uma nova entidade ou removê-lo.
+  <br>Terceira forma normal: Deve atender todos os requisitos da primeira e segunda forma. Os atributos só podem depender o UID da entidade, ou seja, não devem depender um do outro (sem ser o UID), se caso haver um atributo que depende de outro sem ser o UID (dependências transitivas), deve se movê-lo para uma nova entidade ou removê-lo.
  <br>
  <br>
  <h2>Perguntas do sistema para o banco de dados </h2>
